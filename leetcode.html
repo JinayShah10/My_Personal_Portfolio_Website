@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LeetCode Stats</title>
+  <link rel="stylesheet" href="leetcode.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="navbar">
+
+        <div class="title">
+          <h2>LeetCode Statistics</h2>
+        </div>
+
+        <div class="nav_elements">
+          <ul class="nav_elements_list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="main">
+        <video loop muted autoplay src="images/main bg.mp4"></video>
+
+        <div class="typewriter-container">
+          <p class="typewriter-text">"From easy to hard, pushing my boundaries every day with LeetCode.!"</p>
+        </div>
+
+        <div class="stats_container">
+
+          <div class="progress">
+            <div class="progress_item">
+              <div class="circle easy_progress">
+                <span id="easy"></span>
+              </div>
+              <div class="label">Easy</div>
+            </div>
+            <div class="progress_item">
+              <div class="circle medium_progress">
+                <span id="medium"></span>
+              </div>
+              <div class="label">Medium</div>
+            </div>
+            <div class="progress_item">
+              <div class="circle hard_progress">
+                <span id="hard"></span>
+              </div>
+              <div class="label">Hard</div>
+            </div>
+          </div>
+
+          <!-- Concept Summary Box -->
+          <div class="concept_summary" aria-live="polite" aria-atomic="true">
+            <div class="summary_item">
+              <div class="summary_title">Total Questions Solved</div>
+              <div class="summary_value" id="totalSolved">0</div>
+            </div>
+            <div class="summary_item">
+              <div class="summary_title">Total Acceptance Rate</div>
+              <div class="summary_value" id="acceptanceRate">0%</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="footer">
+          <div class="nextpage">
+            <a href="skills.html">&lt;&lt; Go Back</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="leetcode.js"></script>
+</body>
+
+</html>
